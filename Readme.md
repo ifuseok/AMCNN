@@ -9,9 +9,11 @@
 [네이버 영화평 Corpus](https://github.com/e9t/nsmc) 데이터 셋 활용 테스트 학습
 
     git clone 
-    cd 
-    git clone 
-    python main.py ~~~~
+    cd AMCNN
+    git clone https://github.com/e9t/nsmc.git
+    
+    python train.py --train_data nsmc/ratings_train.txt --document document --label label
+    python test.py --test_data nsmc/ratings_test.txt --document document --label label
     
 #### Pre-Trained Embedding weight
 [인터넷 뉴스 댓글 데이터 셋](https://www.kaggle.com/junbumlee/kcbert-pretraining-corpus-korean-news-comments) 을 활용해 Word2Vec 을 학습하여 Pre-trained embedding으로 활용
