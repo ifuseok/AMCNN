@@ -1,14 +1,14 @@
 ## Attention Based multi-channel CNN code source
 [딥러닝 기술을 활용한 차별 및 혐오 표현 탐지 : 어텐션 기반 다중 채널 CNN 모델링](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002664602) 
 
-위 논문에 사용한 모델 아키텍쳐 소스 코드 정fl
+위 논문에 사용한 모델 아키텍쳐 소스 코드 정리
 
 
 
 #### Test in NSMC Binary Classification
 [네이버 영화평 Corpus](https://github.com/e9t/nsmc) 데이터 셋 활용 테스트 학습
 
-    git clone 
+    git clone https://github.com/ifuseok/AMCNN.git
     cd AMCNN
     git clone https://github.com/e9t/nsmc.git
     
